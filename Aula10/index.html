@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <p id="texto"></p>
+
+    <button onclick="eventoClick()">Evento 01</button>
+    <button ondblclick="eventoDblClick()">Evento 02</button>
+    <br>
+
+    <div id="teste"  onmousemove="adicionaTexto()" onmouseout="viraVermelho()" onmouseover="viraAzul()" style="width: 80%; height: 200px; background-color: red;margin: auto; margin-top: 10px;"></div>
+<br>
+    <input onfocus="textoFocado()" id="caixaTexto" type="text" style="padding: 50px; font-size: 30px;" placeholder="Digite alguma coisa" value="Texto na tela">
+
+    <script src="index.js"></script>
+</body>
+</html>
